@@ -69,12 +69,14 @@ export const projectsData = [
     description:
       "Kwiksell is digital marketplace helps to connect business owners and consumers.",
     tags: ["React", "Next.js", "TypeScript", "ReduxToolkit", "TailwindCSS"],
+    repo: "https://github.com/d2ndjim?tab=repositories",
+    live: "https://www.kwiksell.com/",
     imageUrl: kwisellImg,
   },
   {
     title: "Ecommerce Store",
     description:
-      "This is an Ecommerce store where users can view and order items of choice. It has a fully functional shopping cart and checkout system.",
+      "This is an Ecommerce store where users can view and order items of choice, with a fully functional shopping cart and checkout system.",
     tags: [
       "React",
       "Next.js",
@@ -83,12 +85,14 @@ export const projectsData = [
       "Stripe",
       "Cloudinary",
     ],
+    repo: "https://github.com/d2ndjim/ecommerce-store",
+    live: "https://ecommerce-store-mu-jade.vercel.app/",
     imageUrl: storeImg,
   },
   {
     title: "Genie AI",
     description:
-      "This is a full-stack AI SAAS application. The application allows a user to use AI to do a host of activities such as a chatbot, Image generation for design, Video generation, and Music generation.",
+      "This is a full-stack AI SAAS application that uses OpenAI and Replicate to perform a host of AI generated actions",
     tags: [
       "React",
       "Next.js",
@@ -101,6 +105,8 @@ export const projectsData = [
       "Prisma",
       "Crisp",
     ],
+    repo: "https://github.com/d2ndjim/ai-saas",
+    live: "https://genie-ai-eight.vercel.app/",
     imageUrl: genieImg,
   },
   {
@@ -116,20 +122,34 @@ export const projectsData = [
       "NextAuth",
       "Prisma",
     ],
+    repo: "https://github.com/d2ndjim/airbnb",
+    live: "https://rent-project-gold.vercel.app/",
     imageUrl: airbnbImg,
   },
   {
     title: "AES Service",
     description:
       "This is an application that helps users to make electrical engineering or repair appointments.",
-    tags: ["React", "TailwindCSS", "Redu x Toolkit", "EmailJS"],
+    tags: ["React", "TailwindCSS", "Redux Toolkit", "EmailJS"],
+    repo: "https://github.com/d2ndjim/aes-service",
+    live: "https://aes-service.vercel.app/",
     imageUrl: aesImg,
   },
   {
     title: "Ecommerce Dahboard",
     description:
       "This is an Ecommerce Dashboard + CMS application that can be connected to multiple Ecommerce Store applications.",
-    tags: ["React", "Next.js", "TypeScript", "TailwindCSS", "Prisma", "MySQL", "Clerk"],
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Prisma",
+      "MySQL",
+      "Clerk",
+    ],
+    repo: "https://github.com/d2ndjim/ecommerce-dashboard",
+    live: "https://ecommerce-dashboard-bice.vercel.app/",
     imageUrl: dashboardImg,
   },
 ] as const;
