@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 import kwisellImg from "@/public/kwiksell.png";
 import storeImg from "@/public/ecomm-store.png";
 import genieImg from "@/public/genie.png";
@@ -41,7 +42,7 @@ export const experiencesData = [
     location: "PAYSLICE",
     description:
       "As a software emgineer at Payslice, I Collaborate closely with the admin team to identify software needs and translate them into functional requirements.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2022 - 2023",
   },
   {
@@ -57,7 +58,7 @@ export const experiencesData = [
     location: "MICROVERSE",
     description:
       "As a technical mentor at Microverse, I help developers by providing technical support and propose improvements to code organization, quality and overall performance through code reviews.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2021 - present",
   },
 ] as const;
@@ -163,6 +164,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "TailwindCSS",
+  "Material UI",
   "Prisma",
   "MongoDB",
   "Redux Toolkit",
@@ -170,4 +172,6 @@ export const skillsData = [
   "Ruby",
   "Ruby on Rails",
   "Framer Motion",
+  "Jest",
+  "Rspec",
 ] as const;
