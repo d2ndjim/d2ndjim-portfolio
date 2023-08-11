@@ -38,27 +38,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer",
+    location: "PAYSLICE",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "As a software emgineer at Payslice, I Collaborate closely with the admin team to identify software needs and translate them into functional requirements.",
+    icon: React.createElement(FaReact),
+    date: "2022 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer",
+    location: "SOFTCOM LIMITED",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "At Softcom, I Played a key role in rebuilding the administrative system, streamlining customer and staff management processes on the Sterling Bank app, a core banking system using React, NextJs, Redux toolkit and TailwindCSS on the server side.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Technical Mentor (Volunteer)",
+    location: "MICROVERSE",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "As a technical mentor at Microverse, I help developers by providing technical support and propose improvements to code organization, quality and overall performance through code reviews.",
+    icon: React.createElement(LuGraduationCap),
     date: "2021 - present",
   },
 ] as const;
@@ -164,6 +164,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "TailwindCSS",
+  "Material UI",
   "Prisma",
   "MongoDB",
   "Redux Toolkit",
@@ -171,4 +172,6 @@ export const skillsData = [
   "Ruby",
   "Ruby on Rails",
   "Framer Motion",
+  "Jest",
+  "Rspec",
 ] as const;
