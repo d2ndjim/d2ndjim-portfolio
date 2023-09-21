@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "Kwiksell",
     description:
-      "Kwiksell is digital marketplace helps to connect business owners and consumers.",
+      "Kwiksell helps retail businesses run and scale with a powerful point of sale, inventory, payment, online store, customer, and team management solutions",
     tags: ["React", "Next.js", "TypeScript", "ReduxToolkit", "TailwindCSS"],
     repo: "https://github.com/d2ndjim?tab=repositories",
     live: "https://www.kwiksell.com/",
