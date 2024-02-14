@@ -64,15 +64,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Kwiksell",
-    description:
-      "Kwiksell helps retail businesses run and scale with a powerful point of sale, inventory, payment, online store, customer, and team management solutions",
-    tags: ["React", "Next.js", "TypeScript", "ReduxToolkit", "TailwindCSS"],
-    repo: "https://github.com/d2ndjim?tab=repositories",
-    live: "https://www.kwiksell.com/",
-    imageUrl: kwisellImg,
-  },
+  // {
+  //   title: "Kwiksell",
+  //   description:
+  //     "Kwiksell helps retail businesses run and scale with a powerful point of sale, inventory, payment, online store, customer, and team management solutions",
+  //   tags: ["React", "Next.js", "TypeScript", "ReduxToolkit", "TailwindCSS"],
+  //   repo: "https://github.com/d2ndjim?tab=repositories",
+  //   live: "https://www.kwiksell.com/",
+  //   imageUrl: kwisellImg,
+  // },
   {
     title: "Ecommerce Store",
     description:
@@ -89,26 +89,26 @@ export const projectsData = [
     live: "https://ecommerce-store-mu-jade.vercel.app/",
     imageUrl: storeImg,
   },
-  {
-    title: "Genie AI",
-    description:
-      "This is a full-stack AI SAAS application that uses OpenAI and Replicate to perform a host of AI generated actions",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "MySQL",
-      "TailwindCSS",
-      "OpenAI",
-      "Clerk",
-      "Stripe",
-      "Prisma",
-      "Crisp",
-    ],
-    repo: "https://github.com/d2ndjim/ai-saas",
-    live: "https://genie-ai-eight.vercel.app/",
-    imageUrl: genieImg,
-  },
+  // {
+  //   title: "Genie AI",
+  //   description:
+  //     "This is a full-stack AI SAAS application that uses OpenAI and Replicate to perform a host of AI generated actions",
+  //   tags: [
+  //     "React",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "MySQL",
+  //     "TailwindCSS",
+  //     "OpenAI",
+  //     "Clerk",
+  //     "Stripe",
+  //     "Prisma",
+  //     "Crisp",
+  //   ],
+  //   repo: "https://github.com/d2ndjim/ai-saas",
+  //   live: "https://genie-ai-eight.vercel.app/",
+  //   imageUrl: genieImg,
+  // },
   {
     title: "Airbnb NextJs",
     description:
@@ -175,3 +175,5 @@ export const skillsData = [
   "Jest",
   "Rspec",
 ] as const;
+
+
