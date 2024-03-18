@@ -74,6 +74,23 @@ export const projectsData = [
   //   imageUrl: kwisellImg,
   // },
   {
+    title: "Airbnb NextJs",
+    description:
+      "An Imitation of the Airbnb website built using the new NextJS 13 app router, Typescript, TailwindCSS, MongoDB and Prisma.",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "TailwindCSS",
+      "NextAuth",
+      "Prisma",
+    ],
+    repo: "https://github.com/d2ndjim/airbnb",
+    live: "https://rent-project-gold.vercel.app/",
+    imageUrl: airbnbImg,
+  },
+  {
     title: "Ecommerce Store",
     description:
       "This is an Ecommerce store where users can view and order items of choice, with a fully functional shopping cart and checkout system.",
@@ -109,23 +126,7 @@ export const projectsData = [
   //   live: "https://genie-ai-eight.vercel.app/",
   //   imageUrl: genieImg,
   // },
-  {
-    title: "Airbnb NextJs",
-    description:
-      "An Imitation of the Airbnb website built using the new NextJS 13 app router, Typescript, TailwindCSS, MongoDB and Prisma.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "MongoDB",
-      "TailwindCSS",
-      "NextAuth",
-      "Prisma",
-    ],
-    repo: "https://github.com/d2ndjim/airbnb",
-    live: "https://rent-project-gold.vercel.app/",
-    imageUrl: airbnbImg,
-  },
+
   {
     title: "AES Service",
     description:
@@ -175,5 +176,3 @@ export const skillsData = [
   "Jest",
   "Rspec",
 ] as const;
-
-
