@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={picture}
-              alt="Ricardo portrait"
+              alt="Lekan Portrait"
               width="192"
               height="192"
               quality="95"

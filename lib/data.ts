@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import kwisellImg from "@/public/kwiksell.png";
-import storeImg from "@/public/ecomm-store.png";
-import genieImg from "@/public/genie.png";
+// import kwisellImg from "@/public/kwiksell.png";
+// import storeImg from "@/public/ecomm-store.png";
+import refineImg from "@/public/refine-dashboard.png";
 import airbnbImg from "@/public/airbnb-clone.png";
 import aesImg from "@/public/aes.png";
 import dashboardImg from "@/public/dashboard.png";
@@ -91,42 +91,29 @@ export const projectsData = [
     imageUrl: airbnbImg,
   },
   {
-    title: "Ecommerce Store",
-    description:
-      "This is an Ecommerce store where users can view and order items of choice, with a fully functional shopping cart and checkout system.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "Stripe",
-      "Cloudinary",
-    ],
-    repo: "https://github.com/d2ndjim/ecommerce-store",
-    live: "https://ecommerce-store-mu-jade.vercel.app/",
-    imageUrl: storeImg,
+    title: "Refine Dashboard",
+    description: "A fully functional dashboard application built with Refine JS.",
+    tags: ["React", "Refine JS", "TypeScript", "GraphQL", "TailwindCSS"],
+    repo: "https://github.com/d2ndjim/dirty-numbers-punch",
+    live: "https://dirty-numbers-punch.vercel.app/",
+    imageUrl: refineImg,
   },
   // {
-  //   title: "Genie AI",
+  //   title: "Ecommerce Store",
   //   description:
-  //     "This is a full-stack AI SAAS application that uses OpenAI and Replicate to perform a host of AI generated actions",
+  //     "This is an Ecommerce store where users can view and order items of choice, with a fully functional shopping cart and checkout system.",
   //   tags: [
   //     "React",
   //     "Next.js",
   //     "TypeScript",
-  //     "MySQL",
   //     "TailwindCSS",
-  //     "OpenAI",
-  //     "Clerk",
   //     "Stripe",
-  //     "Prisma",
-  //     "Crisp",
+  //     "Cloudinary",
   //   ],
-  //   repo: "https://github.com/d2ndjim/ai-saas",
-  //   live: "https://genie-ai-eight.vercel.app/",
-  //   imageUrl: genieImg,
+  //   repo: "https://github.com/d2ndjim/ecommerce-store",
+  //   live: "https://ecommerce-store-mu-jade.vercel.app/",
+  //   imageUrl: storeImg,
   // },
-
   {
     title: "AES Service",
     description:
@@ -136,23 +123,23 @@ export const projectsData = [
     live: "https://aes-service.vercel.app/",
     imageUrl: aesImg,
   },
-  {
-    title: "Ecommerce Dahboard",
-    description:
-      "This is an Ecommerce Dashboard + CMS application that can be connected to multiple Ecommerce Store applications.",
-    tags: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "Prisma",
-      "MySQL",
-      "Clerk",
-    ],
-    repo: "https://github.com/d2ndjim/ecommerce-dashboard",
-    live: "https://ecommerce-dashboard-bice.vercel.app/",
-    imageUrl: dashboardImg,
-  },
+  // {
+  //   title: "Ecommerce Dahboard",
+  //   description:
+  //     "This is an Ecommerce Dashboard + CMS application that can be connected to multiple Ecommerce Store applications.",
+  //   tags: [
+  //     "React",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "TailwindCSS",
+  //     "Prisma",
+  //     "MySQL",
+  //     "Clerk",
+  //   ],
+  //   repo: "https://github.com/d2ndjim/ecommerce-dashboard",
+  //   live: "https://ecommerce-dashboard-bice.vercel.app/",
+  //   imageUrl: dashboardImg,
+  // },
 ] as const;
 
 export const skillsData = [
