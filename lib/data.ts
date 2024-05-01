@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import kwisellImg from "@/public/kwiksell.png";
+import churchAi from "@/public/churchai.png";
 // import storeImg from "@/public/ecomm-store.png";
 import refineImg from "@/public/refine-dashboard.png";
 import airbnbImg from "@/public/airbnb-clone.png";
@@ -64,15 +64,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  // {
-  //   title: "Kwiksell",
-  //   description:
-  //     "Kwiksell helps retail businesses run and scale with a powerful point of sale, inventory, payment, online store, customer, and team management solutions",
-  //   tags: ["React", "Next.js", "TypeScript", "ReduxToolkit", "TailwindCSS"],
-  //   repo: "https://github.com/d2ndjim?tab=repositories",
-  //   live: "https://www.kwiksell.com/",
-  //   imageUrl: kwisellImg,
-  // },
+  {
+    title: "Exponential AI",
+    description:
+      "An app that empowers your Spiritual Journey By Cultivating Faith and Fostering Community Through Artificial Intelligence",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "NodeJs",
+      "TailwindCSS",
+      "NextAuth",
+    ],
+    repo: "https://github.com/d2ndjim?tab=repositories",
+    live: "https://exponentialai.chat/",
+    imageUrl: churchAi,
+  },
   {
     title: "Airbnb NextJs",
     description:
@@ -92,7 +99,8 @@ export const projectsData = [
   },
   {
     title: "Refine Dashboard",
-    description: "A fully functional dashboard application built with Refine JS.",
+    description:
+      "A fully functional dashboard application built with Refine JS.",
     tags: ["React", "Refine JS", "TypeScript", "GraphQL", "TailwindCSS"],
     repo: "https://github.com/d2ndjim/dirty-numbers-punch",
     live: "https://dirty-numbers-punch.vercel.app/",
