@@ -7,7 +7,7 @@ import churchAi from "@/public/churchai.png";
 import refineImg from "@/public/refine-dashboard.png";
 import airbnbImg from "@/public/airbnb-clone.png";
 import aesImg from "@/public/aes.png";
-import dashboardImg from "@/public/dashboard.png";
+import collab from "@/public/collab.png";
 
 export const links = [
   {
@@ -65,6 +65,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Collab Board",
+    description:
+      "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Shadcn UI",
+      "Covex",
+      "Liveblocks",
+      "TailwindCSS",
+      "Clerk Auth",
+    ],
+    repo: "https://github.com/d2ndjim/collab-board",
+    live: "https://collab-board-theta.vercel.app/",
+    imageUrl: collab,
+  },
+  {
     title: "Exponential AI",
     description:
       "An app that empowers your Spiritual Journey By Cultivating Faith and Fostering Community Through Artificial Intelligence",
@@ -72,6 +90,7 @@ export const projectsData = [
       "React",
       "Next.js",
       "TypeScript",
+      "Shadcn UI",
       "NodeJs",
       "TailwindCSS",
       "NextAuth",
@@ -88,6 +107,7 @@ export const projectsData = [
       "React",
       "Next.js",
       "TypeScript",
+      "Shadcn UI",
       "MongoDB",
       "TailwindCSS",
       "NextAuth",
