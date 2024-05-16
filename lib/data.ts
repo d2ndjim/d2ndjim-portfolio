@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "Collab Board",
     description:
-      "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing",
+      "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with features like Sticky notes and Pencil drawing",
     tags: [
       "React",
       "Next.js",
