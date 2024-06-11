@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
         I'm a Software Developer from Lagos, Nigeria.{" "}
         <span className="font-medium">With a degree in Computer Science</span>,
-        and over 3 years of experience,{" "}
+        and 5 years of experience,{" "}
         <span className="font-medium">
           I have a passion for building accessible and dynamic web applications
           that contribute to great user experiences.
