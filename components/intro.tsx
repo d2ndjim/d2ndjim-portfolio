@@ -53,7 +53,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-           👋
+            👋
           </motion.span>
         </div>
       </div>
@@ -64,7 +64,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Lekan.</span> I&apos;m a{" "}
-        <span className="font-bold">software developer </span>specialized
+        <span className="font-bold">software engineer </span>specialized
         <span className="font-bold"> in building</span> exceptional digital
         experiences. My focus is on building accessible and human centered
         products.
